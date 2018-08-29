@@ -3,21 +3,28 @@
 }
 
 .logoBar {
-	width: 100%;
+   background-image: url('assets/images/headerimg.jpg')
 	height: 100px;
 }
 
-.navBar {
+.mainBox {
    width: 80%;
    margin: auto;
+   padding-top: 30px;
+   text-align: center;
 }
 
 h3 {
-   font-family: 'Nanum Gothic', sans-serif;
+   font-family: 'Passion One', sans-serif;
+   text-transform: uppercase;
 }
 
 span {
    display: block;
+}
+
+p, li {
+   font-family: 'Open Sans', sans-serif;
 }
 
 #sB {
@@ -26,11 +33,10 @@ span {
 
 /* Main menu settings */
 #centeredmenu {
+   width: 80%;
+   margin: auto;
    clear:both;
-   float:left;
-   margin:0;
    padding:0;
-   width:100%;
    font-family: sans-serif; /* Menu font */
    font-size:80%; /* Menu text size */
    z-index:1000; /* This makes the dropdown menus appear above the page content below */
